@@ -28,7 +28,7 @@ class Employee
     void printPaySlip;
 }
 
-//fuction implemetation
+//fuction implementation
 Employee::Employee()
 {
   empNo = 0;
@@ -44,6 +44,38 @@ Employee::Employee(int pempNo, char pname[], double pbasicSalary)
 }
 ```
 ### Activity 1
+Implement Default and Overload Constructors
+
+Class is **Recatngle**  
+Private attributes are:  
+- lenght
+- width
+
+Public functions are: 
+- setWidth();
+- getWidth();
+- setLenght();
+- getLength();
+- calcArea();
+
+create two objects using those constructors in the main progarm. 
+
+## Destructors
+
+- It doesn't specify any parameters or any return types
+- The destructor is called implicitly when the object is destroyed 
+
+```c++
+~Employee();
+
+Employee::~Employee()
+{
+  cout<<"Deleted Employee"<<endl; 
+}
+
+```
+
+
 
 
 
